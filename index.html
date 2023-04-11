@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider + Instagram</title>
+    <link
+      href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    "
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <h1>Welcome to our bakery</h1>
+    <section id="main" class="splide" aria-label="Sample of bakery treats we make">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide"><img src="assets/imgs/01.jpeg" /></li>
+          <li class="splide__slide"><img src="assets/imgs/02.jpeg" /></li>
+          <li class="splide__slide"><img src="assets/imgs/03.jpeg" /></li>
+        </ul>
+      </div>
+    </section>
+    <section
+      id="thumbnail-carousel"
+      class="splide"
+      aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel."
+    >
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img src="assets/imgs/01.jpeg" alt="" />
+          </li>
+          <li class="splide__slide">
+            <img src="assets/imgs/02.jpeg" alt="" />
+          </li>
+          <li class="splide__slide">
+            <img src="assets/imgs/03.jpeg" alt="" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+<h2>Follow Us on Instagram</h2>
+    <figure data-behold-id="bny20SXJkl9fUa2Vj2TA"></figure>
+<script src="https://w.behold.so/widget.js" type="module"></script>
+
+
+<section id="reviews" class="splide" aria-label="Splide Basic HTML Example">
+    <h2>Reviews</h2>
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide">“I started out as a foster for a beautiful blue heeler dog and we fell in love! TCNJ Paws made the adoption process so simple and easy”
+            <span class="author">-Rebecca</span>
+            <span class="rating">	&#9733;	&#9733;	&#9733;	&#9733;	&#9733;</span></li>
+        <li class="splide__slide"> "Volunteering at TCNJ Paws has allowed me to see so many great animals find great homes. It is so rewarding."
+            -Shaun</li>
+        <li class="splide__slide">“I was lonely at TCNJ but when I found out I could foster adorable cats, everything changed!"
+            -Tony</li>
+      </ul>
+    </div>
+  </section>
+  <button id="review-button"><a href="#modal" rel="modal:open">Write us a review</a></button>
+  <div id="modal">
+    <h2>Write Us a Review</h2>
+    <label for="name">Name</label><br>
+    <input type="text" id="name"><br>
+    <label for="review-text">Review</label><br>
+   <textarea></textarea>
+    <button>Submit Review</button>
+  </div>
+
+  <!-- Remember to include jQuery :) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+
+    <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+    "></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
